@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Job Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Freelancing Job Posts</h1>
+    <form id="job-posting-form">
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" name="jobTitle"><br><br>
+        <label for="job-description">Job Description:</label>
+        <textarea id="job-description" name="jobDescription"></textarea><br><br>
+        <label for="job-category">Job Category:</label>
+        <select id="job-category" name="jobCategory">
+            <option value="web-development">Web Development</option>
+            <option value="UI/UX">UI/UX Design</option>
+            <option value="Game Developer">Game Developer</option>
+        </select><br><br>
+        <label for="job-location">Job Location:</label>
+        <input type="text" id="job-location" name="jobLocation"><br><br>
+        <input type="submit" value="Post Job">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
